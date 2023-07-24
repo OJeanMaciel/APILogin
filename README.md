@@ -45,5 +45,5 @@ O sistema de login oferece os seguintes endpoints para interação:
 
 # 🚦 Tecnologias Utilizadas
 - Java 17
-- Spring Boot (versão x.x.x) para criação da API
+- Spring Boot (versão 3.1.2) para criação da API
 - PostgreSQL (ou outro banco de dados compatível)
