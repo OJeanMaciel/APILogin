@@ -33,12 +33,12 @@ Após configurar o banco de dados, você pode iniciar o servidor backend:
 
 O sistema de login oferece os seguintes endpoints para interação:
 
-1. /api/login
+1. /auth/login
 - Método: POST
 - Descrição: Realiza a autenticação do usuário com base nas credenciais fornecidas (como nome de usuário e senha).
 - Resposta: Retorna um token de autenticação em caso de sucesso ou uma mensagem de erro em caso de falha na autenticação.
 
-2. /api/usuarios
+2. /auth/register
 - Método: POST
 - Descrição: Cria um novo usuário no sistema.
 - Resposta: Retorna uma mensagem de sucesso em caso de criação bem-sucedida do usuário ou uma mensagem de erro se houver algum problema.
